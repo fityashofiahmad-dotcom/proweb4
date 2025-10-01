@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batman</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rye&family=UnifrakturMaguntia&display=swap');
+
+        body {
+            background-color: rgb(171, 171, 171);
+        }
+
+        nav {
+            background-color: darkgray;
+            padding: 1rem 1rem;
+        }
+
+        .navbar .navbar-expand-lg bg-light {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-img-top {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card {
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="Batman logo.jpeg" alt="Bootstrap" width="50px" height="50px"
+                    class="d-inline-block align-text-top me-2">
+                <span>BATMAN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            LAINNYA
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">PROFIL</a></li>
+                            <li><a class="dropdown-item" href="#">KEHIDUPAN</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">KEKUATAN</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LINK</a>
+                    </li>
+                    <div class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-center">
+                    <h2 class="font-family: Dancing+Script&family">Rich Superhero:BATMAN</h2>
+                    <p class="my-3">Batman merupakan salah satu superhero inti dari <b>Justice League</b>.Karakternya
+                        pertama kali muncul di <b>Detective Comics #27 (1939)</b>.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="profil.jpeg" class="card-img-top" alt="profil">
+                        <div class="card-body">
+                            <h5 class="card-title">PROFIL</h5>
+                            <p class="card-text">Nama aslinya <b>Bruce Wayne</b>, merupakan anak tunggal dari keluarga
+                                kaya
+                                raya
+                                di Gotham
+                                City, juga seorang pewaris perusahaan besar <b>Wayne Enterprises</b></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">See More</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="batman3.jpeg" class="card-img-top" alt="trauma dan sumpah">
+                        <div class="card-body">
+                            <h5 class="card-title">TRAUMA DAN SUMPAH</h5>
+                            <p class="card-text">>Batman memiliki trauma masa kecil dimana ia menyaksikan orangtuany
+                                dibunuh
+                                oleh seorang
+                                perampok ketika mereka keluar dari teater.Dari trauma inilah Bruce bersumpah akan
+                                mengabdikan
+                                dirinya untuk
+                                memerangi kejahatan agar tak ada anak lain yang merasakan penderitaan seperti dirinya.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">See More</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="The Batman.jpeg" class="card-img-top" alt="ikon dan makna">
+                        <div class="card-body">
+                            <h5 class="card-title">IKON</h5>
+                            <p class="card-text">simbol ini digunakan oleh batman untuk menakuti para penjahat.Ia
+                                terinspirasi
+                                oleh
+                                kelelawar yang masuk ke rumahnya, lalu menjadikannya ikon.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">See More</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col align-self-center">
+                    <a href="#" class="btn btn-outline-dark mt-2">Get start<br></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+    </section>
+</body>
+
+</html>
